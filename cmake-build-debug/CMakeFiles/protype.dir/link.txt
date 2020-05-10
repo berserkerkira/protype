@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/protype.dir/LBoost1/main.cpp.o  -o protype  -L/usr/local/lib -Wl,-rpath,/usr/local/lib -lboost_thread -lboost_system -lpthread 

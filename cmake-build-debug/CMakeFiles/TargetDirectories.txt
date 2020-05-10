@@ -1,0 +1,3 @@
+/home/wangd/CLionProjects/protype/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/wangd/CLionProjects/protype/cmake-build-debug/CMakeFiles/protype.dir
+/home/wangd/CLionProjects/protype/cmake-build-debug/CMakeFiles/edit_cache.dir
