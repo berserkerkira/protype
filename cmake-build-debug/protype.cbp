@@ -86,7 +86,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/wangd/CLionProjects/protype/LBoost1/main.cpp">
+		<Unit filename="/home/wangd/CLionProjects/protype/main.cpp">
 			<Option target="protype"/>
 		</Unit>
 		<Unit filename="/home/wangd/CLionProjects/protype/CMakeLists.txt">

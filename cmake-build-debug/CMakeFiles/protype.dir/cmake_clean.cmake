@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/protype.dir/LBoost1/main.cpp.o"
+  "CMakeFiles/protype.dir/main.cpp.o"
   "protype"
   "protype.pdb"
 )

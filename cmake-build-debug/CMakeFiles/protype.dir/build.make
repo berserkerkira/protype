@@ -57,27 +57,27 @@ include CMakeFiles/protype.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/protype.dir/flags.make
 
-CMakeFiles/protype.dir/LBoost1/main.cpp.o: CMakeFiles/protype.dir/flags.make
-CMakeFiles/protype.dir/LBoost1/main.cpp.o: ../LBoost1/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangd/CLionProjects/protype/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/protype.dir/LBoost1/main.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/protype.dir/LBoost1/main.cpp.o -c /home/wangd/CLionProjects/protype/LBoost1/main.cpp
+CMakeFiles/protype.dir/main.cpp.o: CMakeFiles/protype.dir/flags.make
+CMakeFiles/protype.dir/main.cpp.o: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangd/CLionProjects/protype/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/protype.dir/main.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/protype.dir/main.cpp.o -c /home/wangd/CLionProjects/protype/main.cpp
 
-CMakeFiles/protype.dir/LBoost1/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/protype.dir/LBoost1/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wangd/CLionProjects/protype/LBoost1/main.cpp > CMakeFiles/protype.dir/LBoost1/main.cpp.i
+CMakeFiles/protype.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/protype.dir/main.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wangd/CLionProjects/protype/main.cpp > CMakeFiles/protype.dir/main.cpp.i
 
-CMakeFiles/protype.dir/LBoost1/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/protype.dir/LBoost1/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wangd/CLionProjects/protype/LBoost1/main.cpp -o CMakeFiles/protype.dir/LBoost1/main.cpp.s
+CMakeFiles/protype.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/protype.dir/main.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wangd/CLionProjects/protype/main.cpp -o CMakeFiles/protype.dir/main.cpp.s
 
 # Object files for target protype
 protype_OBJECTS = \
-"CMakeFiles/protype.dir/LBoost1/main.cpp.o"
+"CMakeFiles/protype.dir/main.cpp.o"
 
 # External object files for target protype
 protype_EXTERNAL_OBJECTS =
 
-protype: CMakeFiles/protype.dir/LBoost1/main.cpp.o
+protype: CMakeFiles/protype.dir/main.cpp.o
 protype: CMakeFiles/protype.dir/build.make
 protype: CMakeFiles/protype.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wangd/CLionProjects/protype/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable protype"
