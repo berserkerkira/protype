@@ -44,6 +44,36 @@ constexpr Date PRCfound{1949,10,1};
 constexpr int foundmonth = PRCfound.GetMonth();
 
 
+class Test{
+public:
+    Test(int a,int b,int c){
+        ma = a;
+        mb = b;
+        mc = c;
+        std::cout<<"Test constructed"<<std::endl;
+    }
+
+    ~Test(){
+        std::cout<<"Test destructed"<<std::endl;
+    }
+
+    Test(const Test& rhs){
+        if(this == &rhs){
+            return;
+        }
+
+        this->ma = rhs.ma;
+        this->mb = rhs.mb;
+        this->mc = rhs.mc;
+
+        std::cout<<"Test copy-constructed"<<std::endl;
+    }
+
+private:
+    int ma;
+    int mb;
+    int mc;    
+};
 
 /*test c++11 or boost*/
 int main(int argc, const char * argv[]){
@@ -66,5 +96,11 @@ int main(int argc, const char * argv[]){
     cout << Multiply<2,3,4,5>::val << endl;
     cout << Multiply<22,44,66,88,9>::val << endl;
 
+    std::list<Test> collections;
+    for(int i = 0; i < 10;i++){
+        collections.emplace_back(1*i,2*i,3*i);
+    }
+    cout <<  collections.size() << endl;
     return 0;
+
 }
