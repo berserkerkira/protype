@@ -7,7 +7,7 @@ include_directories(LBoost1)
 link_directories("/usr/local/lib")
 
 add_executable(protype
-        LBoost1/main.cpp)
+        main.cpp)
 
 target_link_libraries(protype
         boost_thread

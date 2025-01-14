@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/wangd/CLionProjects/protype/LBoost1/main.cpp" "/home/wangd/CLionProjects/protype/cmake-build-debug/CMakeFiles/protype.dir/LBoost1/main.cpp.o"
+  "/home/wangd/CLionProjects/protype/main.cpp" "/home/wangd/CLionProjects/protype/cmake-build-debug/CMakeFiles/protype.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -6,11 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/wangd/CLionProjects/protype/LBoost1/main.cpp
+/home/wangd/CLionProjects/protype/main.cpp
 iostream
 -
 boost/thread.hpp
--
-iostream
 -
 

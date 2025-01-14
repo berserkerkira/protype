@@ -123,32 +123,32 @@ protype/fast:
 	$(MAKE) -f CMakeFiles/protype.dir/build.make CMakeFiles/protype.dir/build
 .PHONY : protype/fast
 
-LBoost1/main.o: LBoost1/main.cpp.o
+main.o: main.cpp.o
 
-.PHONY : LBoost1/main.o
+.PHONY : main.o
 
 # target to build an object file
-LBoost1/main.cpp.o:
-	$(MAKE) -f CMakeFiles/protype.dir/build.make CMakeFiles/protype.dir/LBoost1/main.cpp.o
-.PHONY : LBoost1/main.cpp.o
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/protype.dir/build.make CMakeFiles/protype.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-LBoost1/main.i: LBoost1/main.cpp.i
+main.i: main.cpp.i
 
-.PHONY : LBoost1/main.i
+.PHONY : main.i
 
 # target to preprocess a source file
-LBoost1/main.cpp.i:
-	$(MAKE) -f CMakeFiles/protype.dir/build.make CMakeFiles/protype.dir/LBoost1/main.cpp.i
-.PHONY : LBoost1/main.cpp.i
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/protype.dir/build.make CMakeFiles/protype.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-LBoost1/main.s: LBoost1/main.cpp.s
+main.s: main.cpp.s
 
-.PHONY : LBoost1/main.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-LBoost1/main.cpp.s:
-	$(MAKE) -f CMakeFiles/protype.dir/build.make CMakeFiles/protype.dir/LBoost1/main.cpp.s
-.PHONY : LBoost1/main.cpp.s
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/protype.dir/build.make CMakeFiles/protype.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... protype"
 	@echo "... edit_cache"
-	@echo "... LBoost1/main.o"
-	@echo "... LBoost1/main.i"
-	@echo "... LBoost1/main.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 
